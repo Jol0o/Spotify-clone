@@ -3,7 +3,7 @@ import React from "react";
 export default function Login() {
   const handleClick = () => {
     const clientId = "6156f41413d24114a6321e6800d87c75";
-    const redirectUrl = "http://localhost:5173/";
+    const redirectUrl = "https://effervescent-frangipane-b16357.netlify.app/";
     const apiUrl = "https://accounts.spotify.com/authorize";
     const scopes = [
       "user-read-private",
